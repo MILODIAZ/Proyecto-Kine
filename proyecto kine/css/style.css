@@ -1,0 +1,110 @@
+body{
+	overflow: hidden;
+	background: rgb(17,157,164);
+background: -moz-linear-gradient(90deg, rgba(17,157,164,1) 0%, rgba(172,145,47,1) 90%);
+background: -webkit-linear-gradient(90deg, rgba(17,157,164,1) 0%, rgba(172,145,47,1) 90%);
+background: linear-gradient(90deg, rgba(17,157,164,1) 0%, rgba(172,145,47,1) 90%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#119da4",endColorstr="#ac912f",GradientType=1);
+}
+
+header{
+	background: rgba(19, 80, 91,0.5);
+}
+
+.header-nav{
+	border: 0px;
+}
+
+#site-logo{
+	float: left;	
+}
+
+#site-name{
+	float: left;
+	color: #d7d9ce;
+	margin-left: 20px;
+	margin-top: 27px;
+	font-size: 1.5em;
+}
+
+#site-location{
+	float: left;
+	font-size:0.9em;
+	color: #d7d9ce;
+	margin-left: 34px;	
+}
+
+
+p{
+	color: #d7d9ce;
+}
+
+h1{
+	color:#13505b;
+}
+
+@media (min-width: 1200px) {
+  header{
+  	height: 170px;
+  }
+  #site-logo{
+	width: 170px;
+	float: left;
+	margin-top: -16px;		
+  }	
+}
+	
+@media (min-width: 992px) and (max-width: 1199px) {
+	header{
+  		height: 150px;
+    }
+	#site-logo{
+		width: 140px;
+		float: left;
+		margin-top: -11px;			
+    }
+	#site-name{
+		margin-left: 16px;
+		margin-top: 27px;
+		font-size: 1.2em;
+    }
+
+	#site-location{
+		margin-left: 30px;
+		font-size:0.7em;	
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	header{
+  	height: 100px;
+  }
+  #site-logo{
+	width: 90px;
+	float: left;	
+	margin-top: -11px;	
+	}
+
+	#site-name{
+		margin-left: 19px;
+		margin-top: 12px;
+		font-size: 1.2em;
+    }
+
+	#site-location{
+		margin-left: 30px;
+		font-size:0.7em;	
+	}
+}
+
+@media (max-width: 767px) {
+	header{
+  	height: 130px;
+  }
+  #site-logo{
+	width: 129px;
+	float: left;	
+	margin-top: -15px;	
+	}
+}
