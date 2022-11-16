@@ -120,6 +120,11 @@ a:hover{
 	text-decoration: none;
 }
 
+a:active{
+	color: #ac912f;
+	text-decoration: none;
+}
+
 #header-atencion{
 	display: block;
 	margin-top: 69px;
