@@ -1,17 +1,99 @@
 
 *{
 	box-sizing: border-box;
+	font-family: 'Jost', sans-serif;
+}
+
+#hideSideNavButton{
+	background: rgba(0, 0, 0, 0);
+	border: 0;
+}
+
+#HideSideNavIcon{
+	width: 50px;
+	filter: invert(100%);
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 41px;
+}
+
+#SideBarList{
+	position: absolute;	
+	z-index: 1;
+}
+
+.SideBarListItem{
+	font-size: 1em;
+	margin-bottom : 30px;
+
+}
+
+.SideBarListItem a{
+	padding: 0px 8px 0px 8px;
+	color: #d7d9ce;
+	font-weight: bold;
+	margin-left: 9px;	
+}
+
+.SideBarListItem a:hover{
+	color: #ac912f;
+	text-decoration: none;
+}
+
+#SideBarWSP{
+	filter: invert(100%);
+	width: 84px;
+	position: relative;
+	top:265px;
+	left:84px;
+}
+
+#SideBarWSPText
+{
+	font-weight: bold;
+	position: relative;
+	top:296px;
+	left:-11px;	
+}
+
+#SideBarLogo{
+	opacity: 0.2;
+	filter: grayscale(100%);
+	width: 400px;
+	position: absolute;	
+	z-index: -1;
+}
+
+#SideNavButton{
+	background: rgba(0, 0, 0, 0);
+	border: 0;
+	width: 50px;
+	height: 50px;	
+	display: none;
+	float: right;
+	position: relative;
+	top: 30px;
+	right:40px;
+	z-index: 1;
+}
+
+#boton-hamburguesa{
+	width: 50px;
+	filter: invert(100%);
+	transition: all 0.3s;
 }
 
 #sidebar{
 	min-width: 250px;
     max-width: 250px;
     min-height: 100vh;
-    background: #7386D5;
+    background: rgba(1, 1, 1,0.8);
     color: #fff;
     position: absolute;
     right: -250px;
     z-index: 2;
+    transition: all 0.3s;
+    display: none;
 }
 
 
@@ -116,11 +198,11 @@ a:hover{
 
 #publicity{
 	height: 0px;
-	text-align: center;
-	font-size: bold;
+	text-align: center;	
 	text-transform: uppercase;
-	font-size: 3em;
-	text-shadow: 1px 1px #0C7489;	 
+	font-size: 2.5em;
+	text-shadow: 1px 1px #0C7489;
+	font-family: 'Archivo Black', sans-serif; 
 }
 
 #bio{
@@ -294,10 +376,7 @@ h1{
   	height: 100px;
   }
 
-  .wrapper {
-    display: none;
-    
-}
+  
   #site-logo{
 	width: 90px;
 	float: left;	
@@ -419,6 +498,13 @@ h1{
 		height: 800px;
 	}
 
+	#sidebar{
+	    display: inline-block;
+}
+
+	#SideNavButton{	
+	display: inline-block;
+}
 }
 
 @media (max-width: 575px){
@@ -473,4 +559,11 @@ h1{
 		height: 800px;
 	}
 	
+#sidebar{
+	    display: inline-block;
+}
+
+	#SideNavButton{	
+	display: inline-block;
+}
 }

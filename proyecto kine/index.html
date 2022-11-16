@@ -7,17 +7,51 @@
 	<title>Kinesióloga Rocío Muñóz</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/html5reset-1.6.1.css">
-	<link rel="stylesheet" href="css/style.css">
-	<!--Google Font Playfair Display -->
+	<link rel="stylesheet" href="css/style.css">		
+	<!--Google Font Jost-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+	<!--Google Font Archivo Black-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 </head>
 <body>	
+		
 	<div id="sidebar">
-		<span>hola</span>
+		<button type="button" onclick="HideSideNav()" id="hideSideNavButton">
+			<img id="HideSideNavIcon" src="images/angulo-izquierdo.png">
+		</button>		
+		<nav>
+			<ul id="SideBarList">
+				<li>
+				   		<img id="SideBarLogo" class="social-nav-icon"src="images/Site-Logo.png">   		        
+				</li>
+				<li class="SideBarListItem">
+					<a href="index.html">INICIO</a>					
+				</li>
+				<li class="SideBarListItem">
+					<a href="#">OPINIONES DE PACIENTES</a>					
+				</li>
+				<li class="SideBarListItem">
+					<a onclick="HideSideNav()" href="#patologias-seccion">ESPECIALIDADES</a>					
+				</li>
+				<li class="SideBarListItem">
+					<a href="#index.html">ACERCA DE MÍ</a>			
+				</li>				
+				<li>
+				   <a href="index.html">
+				   	<img id="SideBarWSP" class="social-nav-icon"src="images/whatsapp.png">
+				   	<span id="SideBarWSPText">Contáctame!</span></a>	        
+				</li>
+			</ul>
+		</nav>
 	</div>
 	<header>
+		<button type="button" onclick="ShowSideNav()" id="SideNavButton">
+			<img src="images/menu-hamburguesa.png" id="boton-hamburguesa">	
+	</button>
 		<nav id="header-nav" class="navbar">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
