@@ -4,6 +4,50 @@
 	font-family: 'Jost', sans-serif;
 }
 
+#patologias-seccion-title{
+	text-align: center;
+    margin-bottom: 75px;
+    font-size: 2em;
+}
+
+.patologia{	
+	padding: 20px 40px 20px 40px;	
+}
+
+.patologia-card{	
+	background: rgba(215, 217, 202, 0.5);
+	border-radius: 30px;	
+	height: 181px;
+}
+
+
+.patologia-card a:hover{
+	color: #FFD733;
+	text-decoration: none;
+}
+
+.patologia .patologia-card h2{
+	position: relative;
+	top: 36px;
+	left: 170px;
+	font-size: 1.25em;
+	font-weight: bold;	
+}
+
+
+.patologia .patologia-card img{
+	position: relative;
+	top: 6px;
+	left: 25px;
+}
+
+.patologia .patologia-card p{
+	position: relative;
+	top: -78px;
+	left: 170px;
+	width: 296px;
+}
+
 #hideSideNavButton{
 	background: rgba(0, 0, 0, 0);
 	border: 0;
@@ -100,15 +144,11 @@
 body{
 	overflow-x: hidden;
 	width: 100%;
-	background: rgb(17,157,164);
-background: -moz-linear-gradient(90deg, rgba(17,157,164,1) 0%, rgba(172,145,47,1) 90%);
-background: -webkit-linear-gradient(90deg, rgba(17,157,164,1) 0%, rgba(172,145,47,1) 90%);
-background: linear-gradient(90deg, rgba(17,157,164,1) 0%, rgba(172,145,47,1) 90%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#119da4",endColorstr="#ac912f",GradientType=1);
+	background: #77aeb1;
 }
 
 header{
-	background: rgba(19, 80, 91,0.5);
+	background: #5c9398;
 }
 
 ul{
@@ -116,13 +156,17 @@ ul{
 }
 
 a:hover{
-	color: #ac912f;
+	color: #FFD733;
 	text-decoration: none;
 }
 
 a:active{
-	color: #ac912f;
+	color: #FFD733;
 	text-decoration: none;
+}
+
+a{
+	color: #5c9398;
 }
 
 #header-atencion{
@@ -146,7 +190,7 @@ a:active{
 #social-nav{
 	
 	margin-top: 15px;
-	margin-left: 613px;	
+	margin-left: 636px;	
 }
 
 #social-nav .nav-link{
@@ -167,12 +211,12 @@ a:active{
 }
 
 .navbar-nav{
-	margin-top: 20px;
+	margin-top: 20px;	
 }
 
 .nav-link{
 	padding: 0px 8px 0px 8px;
-	color: #d7d9ce;
+	color: #d7f8f7;
 	font-size: 0.8em;
 	margin-right: 5px;
 	font-weight: bold;
@@ -188,7 +232,7 @@ a:active{
 
 #site-name{
 	float: left;
-	color: #d7d9ce;
+	color: #d7f8f7;
 	margin-left: 20px;
 	margin-top: 27px;
 	font-size: 1.5em;
@@ -197,7 +241,7 @@ a:active{
 #site-location{
 	float: left;
 	font-size:0.9em;
-	color: #d7d9ce;
+	color: #d7f8f7;
 	margin-left: 34px;	
 }
 
@@ -205,10 +249,11 @@ a:active{
 	height: 0px;
 	text-align: center;	
 	text-transform: uppercase;
-	font-size: 2.5em;
-	text-shadow: 1px 1px #0C7489;
-	font-family: 'Archivo Black', sans-serif; 
+	font-size: 2.5em;	
+	font-family: 'Archivo Black', sans-serif;
+	margin-bottom: 106px; 
 }
+
 
 #bio{
 	position: relative;
@@ -218,28 +263,29 @@ a:active{
 #bio h1{
 	text-align: center;
 	margin-bottom: 30px;
-	font-size: 2em;
-	text-shadow: 1px 1px #0C7489;
+	font-size: 2em;	
 }
 
 #bio-picture{
 	float: left;
-	width: 25%;	
-	margin-top: 50px;
-	border-radius: 10px;
+	width: 32%;	
+	margin-top: -14px;	
+	position: absolute;
+	top: -34px;
+	left: 2px;
 }
 
 #bio-text{
-	margin-left: 30px ;
+	margin-left: 330px;
 	padding-top: 30px;
 	float: left;
-	width: 72%;
+	width: 68%;
 	text-align: justify;
 }
 
 #bio-list{
 	margin-top: 20px;
-	padding-left: 40px;
+	padding-left: 376px;
 	float: left;
 }
 
@@ -293,17 +339,44 @@ a:active{
 	clear: both;
 }
 
+#service-header{
+	color: #11787f;
+	    text-align: center;
+    margin-bottom: 75px;
+    font-size: 2em;
+}
+
+#service-text{
+	width: 55%;	
+}
+
+#service-text li{
+	color: #000000;	
+	float: left;
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-right: 10px;
+	font-size: 1em;	
+}
+
+#service-media{
+	width: 39%;
+	display: inline-block;
+	padding: 0px 0px 20px 20px;
+	border-radius: 30px;	
+}
+
 section{
 	margin-top: 75px;
 	height: 600px;
 }
 
 p, span{
-	color: #d7d9ce;
+	color: #d7f8f7;
 }
 
 h1{
-	color:#13505b;
+	color:#e0ffff;
 }
 
 @media (min-width: 1200px) {
@@ -319,6 +392,10 @@ h1{
 	float: left;
 	margin-top: -16px;		
   }	
+
+  .navbar-nav{	
+	margin-left: 22px;
+}
 }
 	
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -346,17 +423,21 @@ h1{
 	}
 
 	#bio p{
-	margin-left: 30px ;
+	margin-left: 255px ;
 	padding-top: 30px;
 	float: left;
 	width: 70%;
 	text-align: justify;
 	}
 
-	#bio-picture{
-	float: left;
-	width: 26%;	
-	margin-top: 50px;
+	#bio-picture{	
+	width: 33%;	
+	top:63px;
+	left: 0px;	
+}
+
+#bio-text{
+	margin-left: 200px;
 }
 
 #header-atencion{	
@@ -365,12 +446,21 @@ h1{
 
 
 #social-nav{	
-	margin-left: 434px;
+	margin-left: 456px;
 	margin-top: -6px;
 }
 
 #navbar-nav{
 	margin-bottom: 20px;
+
+}
+
+.patologia .patologia-card h2{
+	font-size: 1em;
+}
+
+.patologia .patologia-card p{
+	width: 220px;
 }
 	
 }
@@ -400,10 +490,12 @@ h1{
 	}
 
 	#bio-picture{	
+	content: url("../images/rocio.jpg");
 	width: 40%;	
 	display:block;
 	margin:auto;
 	float: none;	
+	position: static;
 }
 
 	#bio-name{
@@ -414,6 +506,10 @@ h1{
 	#bio-text{
 		margin: 0;
 		width: 100%;
+	}
+
+	#bio-list{
+		padding-left: 173px;
 	}
 
 	#publicity{
@@ -429,7 +525,7 @@ h1{
 }
 
 #social-nav{	
-	margin-left: 342px;
+	margin-left: 368px;
 	margin-top: -7px;
 }
 
@@ -451,6 +547,11 @@ h1{
 
 #atencion-text{
 	font-size: 0.7em;
+}
+
+.patologia{
+	padding-left: 130px;
+	padding-right: 130px;
 }
 
 }
@@ -482,8 +583,11 @@ h1{
 	width: 40%;	
 	display:block;
 	margin:auto;
-	float: none;	
+	float: none;
+	content: url("../images/rocio.jpg");
+	position: static;	
 }
+
 
 	#bio-name{
 		margin-top: 121px;
@@ -495,12 +599,16 @@ h1{
 		width: 100%;
 	}
 
+	#bio-list{
+		padding-left: 110px;
+	}
+
 	#publicity{
 		margin-top: 30px;
 	}
 
 	#bio{
-		height: 800px;
+		height: 850px;
 	}
 
 	#sidebar{
@@ -509,6 +617,32 @@ h1{
 
 	#SideNavButton{	
 	display: inline-block;
+}
+
+#service-description{
+	height: 1030px;
+}
+	
+	#service-text{
+		width: 100%;
+		float: none;
+	}
+
+	#service-media{
+		width: 100%;
+		margin: auto;
+		margin-top: -32px;
+		padding: 40px 40px 40px 40px;
+		border-radius: 50px;		
+	}
+
+	.patologia{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#patologias-seccion{
+	height: 1650px;
 }
 }
 
@@ -540,15 +674,18 @@ h1{
 	}
 
 	#bio-picture{	
-	width: 40%;	
+	width: 50%;	
 	display:block;
 	margin:auto;
 	float: none;	
+	content: url("../images/rocio.jpg");
+	position: static;
 }
 
 	#bio-name{
-		margin-top: 121px;
+		margin-top: 165px;
 		padding-inline: 40px;
+		text-align: center;
 	}
 
 	#bio-text{
@@ -561,7 +698,12 @@ h1{
 	}
 
 	#bio{
-		height: 800px;
+		height: 800px;		
+	}
+
+	#bio-list{
+		padding-left: 65px;
+		margin-bottom: 30px;
 	}
 	
 #sidebar{
@@ -570,5 +712,41 @@ h1{
 
 	#SideNavButton{	
 	display: inline-block;
+}
+
+#service-description{
+	height: 850px;
+}
+
+#service-text{
+		width: 100%;
+		float: none;
+	}
+
+	#service-media{
+		width: 100%;
+		margin: auto;
+		margin-top: -32px;
+		padding: 40px 40px 40px 40px;
+		border-radius: 50px;		
+	}
+
+	.patologia .patologia-card img{
+		width: 112px;
+	}
+
+	.patologia .patologia-card h2{
+		left:145px;
+		font-size: 1.1em;
+	}
+
+	.patologia .patologia-card p{
+		top: -65px;
+    left: 148px;
+    width: 243px;
+	}
+
+	#patologias-seccion{
+	height: 1650px;
 }
 }
