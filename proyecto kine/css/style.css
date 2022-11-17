@@ -61,8 +61,7 @@
 	margin-bottom: 41px;
 }
 
-#SideBarList{
-	position: absolute;	
+#SideBarList{		
 	z-index: 1;
 }
 
@@ -84,20 +83,21 @@
 	text-decoration: none;
 }
 
+#WSPButton{
+	margin-top: 180px;
+	margin-left: 85px;
+}
+
 #SideBarWSP{
 	filter: invert(100%);
 	width: 84px;
-	position: relative;
-	top:265px;
-	left:84px;
+	
 }
 
 #SideBarWSPText
 {
 	font-weight: bold;
-	position: relative;
-	top:296px;
-	left:-11px;	
+		
 }
 
 #SideBarLogo{
@@ -130,7 +130,7 @@
 #sidebar{
 	min-width: 250px;
     max-width: 250px;
-    min-height: 100vh;
+    min-height: 100vh;    
     background: rgba(1, 1, 1,0.8);
     color: #fff;
     position: absolute;
@@ -650,17 +650,34 @@ h1{
 	header{
   	height: 130px;
   }
+
+  section {
+  	margin-top:30px;
+  }
+
+  #service-header{
+  	margin-bottom: 23px;
+  }
+
+  #service-text li{
+  	margin-bottom: 6px;
+  	font-size: 0.8em;
+  }
+
+  #service-description{
+  	height: 550px;
+  }
   #site-logo{
-	width: 129px;
+	width: 100px;
 	float: left;	
-	margin-top: -15px;
+	margin-top: -2px;
 	margin-left: -29px;	
 	}
 
 	#site-name{
 		margin-left: 4px;
-		margin-top: 12px;
-		font-size: 1em;
+		margin-top: 28px;
+		font-size: 0.8em;
     }
 
 	#site-location{
@@ -682,10 +699,11 @@ h1{
 	position: static;
 }
 
-	#bio-name{
-		margin-top: 165px;
+	#bio h1{
+		margin-top: 0px;
 		padding-inline: 40px;
 		text-align: center;
+		font-size: 1.5em;
 	}
 
 	#bio-text{
@@ -697,12 +715,16 @@ h1{
 		margin-top: 30px;
 	}
 
+	#publicity h1{
+		font-size: 0.7em;
+	}
+
 	#bio{
 		height: 800px;		
 	}
 
 	#bio-list{
-		padding-left: 65px;
+		padding-left: 27px;
 		margin-bottom: 30px;
 	}
 	
@@ -714,9 +736,15 @@ h1{
 	display: inline-block;
 }
 
-#service-description{
-	height: 850px;
+#SideBarWSP{
+	top:140px;
 }
+
+#SideBarWSPText{
+	top:170px;
+	left:-4px;
+}
+
 
 #service-text{
 		width: 100%;
@@ -732,21 +760,37 @@ h1{
 	}
 
 	.patologia .patologia-card img{
-		width: 112px;
+		width: 83px;
+		top:1px;
+		left:14px;
 	}
 
 	.patologia .patologia-card h2{
-		left:145px;
-		font-size: 1.1em;
+		left:106px;
+		font-size: 0.9em;
+		top:16px;
 	}
 
 	.patologia .patologia-card p{
 		top: -65px;
-    left: 148px;
-    width: 243px;
+    left: 108px;
+    width: 200px;
+    font-size: 0.9em;
 	}
 
 	#patologias-seccion{
-	height: 1650px;
+	height: 1100px;
+}
+
+#patologias-seccion-title{
+	margin-bottom: 10px;
+}
+
+.patologia{
+	padding: 20px 40px 0px 40px;
+}
+
+.patologia-card{
+	height: 120px;
 }
 }
