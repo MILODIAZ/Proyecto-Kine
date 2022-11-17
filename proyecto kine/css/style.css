@@ -4,6 +4,77 @@
 	font-family: 'Jost', sans-serif;
 }
 
+footer{
+	background: #5c9398;	
+}
+
+footer section{
+ height: fit-content;
+}
+
+#footer-contact{
+	padding-top: 30px;
+	padding: 30px;
+}
+
+#footer-contact h3{
+	text-align: center;
+	color: #d7f8f7;
+	margin-bottom: 20px;	
+	font-size: 1.2em;	
+}
+
+#footer-contact li{
+	margin-bottom: 5px;	
+}
+
+#footer-contact li span, .footer-contact-icon{
+	vertical-align: middle;
+	padding: 3px;
+}
+
+#footer-contact .footer-contact-icon{
+	filter: invert(100%);
+}
+
+#dos-tres-icon{
+	width: 50px;
+	margin-top: 15px;
+}
+
+#doctoralia-icon{
+	width: 175px;
+	margin-left: 30px;	
+	padding-bottom: 3px;
+}
+
+#footer-cobertura{
+	padding: 30px;
+	text-align: center;
+}
+
+#footer-cobertura img{
+	width: 30px;
+	filter: invert(100%);
+	vertical-align: middle;
+}
+
+#footer-cobertura span{
+	vertical-align: middle;
+	margin-left: 5px;
+	font-size: 1.2em;	
+}
+
+#footer-cobertura iframe{
+	padding-top: 5px;
+}
+
+#myservice-add {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
 #patologias-seccion-title{
 	text-align: center;
     margin-bottom: 75px;
@@ -471,6 +542,15 @@ h1{
   	height: 100px;
   }
 
+  #service-description {
+    height: 500px;
+    margin-top: 35px;
+}
+
+#service-header {    
+    margin-bottom: 35px;    
+}
+
   
   #site-logo{
 	width: 90px;
@@ -554,6 +634,33 @@ h1{
 	padding-right: 130px;
 }
 
+section {
+    margin-top: 60px;   
+}
+
+#patologias-seccion-title {   
+    margin-bottom: 15px;    
+}
+
+.patologia-card {
+    height: 121px;
+}
+
+.patologia .patologia-card h2 {
+    top: 15px;
+    left: 170px;    
+}
+
+.patologia .patologia-card p {
+    top: -85px;        
+}
+
+.patologia .patologia-card img {
+    top: -15px;
+    left: 30px;
+    width: 100px;   
+}
+
 }
 
 @media (min-width:576px) and (max-width: 767px) {
@@ -620,7 +727,7 @@ h1{
 }
 
 #service-description{
-	height: 1030px;
+	height: 900px;
 }
 	
 	#service-text{
@@ -633,7 +740,8 @@ h1{
 		margin: auto;
 		margin-top: -32px;
 		padding: 40px 40px 40px 40px;
-		border-radius: 50px;		
+		border-radius: 50px;
+		max-height: 450px;		
 	}
 
 	.patologia{
@@ -642,7 +750,46 @@ h1{
 }
 
 #patologias-seccion{
-	height: 1650px;
+	height: 1170px;
+}
+
+section {
+    margin-top: 60px;   
+}
+
+#patologias-seccion-title {   
+    margin-bottom: 15px;    
+}
+
+.patologia-card {
+    height: 121px;
+}
+
+.patologia .patologia-card h2 {
+    top: 15px;
+    left: 170px;    
+}
+
+.patologia .patologia-card p {
+    top: -85px;        
+}
+
+.patologia .patologia-card img {
+    top: -15px;
+    left: 30px;
+    width: 100px;   
+}
+
+#footer-contact ul{
+	padding-inline: 25%;
+}
+
+#other-contacts{
+	padding-inline: 25%;
+}
+
+#doctoralia-icon {    
+    margin-left: 12px;    
 }
 }
 
@@ -792,5 +939,17 @@ h1{
 
 .patologia-card{
 	height: 120px;
+}
+
+#footer-contact ul{
+	padding-inline: 18%;
+}
+
+#other-contacts{
+	padding-inline: 18%;
+}
+
+#doctoralia-icon {    
+    margin-left: 15px;    
 }
 }
