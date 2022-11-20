@@ -199,15 +199,16 @@ footer section{
 }
 
 #sidebar{
-	min-width: 250px;
+		width: 0px;
     max-width: 250px;
-    min-height: 100vh;    
+    min-height: 100vh;
+    height: 100vh;    
     background: rgba(1, 1, 1,0.8);
     color: #fff;
-    position: absolute;
+    position: fixed;
     right: -250px;
     z-index: 2;
-    transition: all 0.3s;
+    transition: all 0.5s;
     display: none;
 }
 
